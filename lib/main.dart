@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       home: Scaffold(
-        backgroundColor: const Color.fromARGB(255, 187, 79, 238),
+        backgroundColor: Color(Red)
         body: Center(
           child: Text('Hello there!'),
         ),
