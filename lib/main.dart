@@ -8,10 +8,13 @@ void main() {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [Colors.amberAccent, Colors.redAccent],
+              begin: Alignment.topRight,
+              end: Alignment.bottomLeft,
             ),
           ),
           child: const Center(
-            child: Text('Hello there!'),
+            child: Text('Hello there!',
+                style: TextStyle(fontSize: 28, color: Colors.white)),
           ),
         ),
       ),
