@@ -9,8 +9,8 @@ class SomeTextToDisplay extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Text(text,
-          style: const TextStyle(
-              fontSize: 28, color: Color.fromARGB(255, 105, 42, 42))),
+          style:
+              const TextStyle(fontSize: 28, color: Color.fromARGB(255, 126, 11, 11))),
     );
   }
 }
