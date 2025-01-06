@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:helloworld/text_d.dart';
+// import 'package:helloworld/text_d.dart';
 
 //defining variables:
 
@@ -22,7 +22,10 @@ class GradientContainer extends StatelessWidget {
           ),
         ),
         child: Center(
-          child: Image.asset('assets/images/dice-1.png'),
+          child: Image.asset(
+            'images/dice-4.png',
+            width: 200,
+          ),
         ));
   }
 }
