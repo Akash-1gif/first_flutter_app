@@ -21,7 +21,7 @@ class GradientContainer extends StatelessWidget {
             end: endColor,
           ),
         ),
-        child: const SomeTextToDisplay('Heya'));
+        child: const SomeTextToDisplay('Duh...'));
   }
 }
 
