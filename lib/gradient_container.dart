@@ -18,6 +18,6 @@ class GradientContainer extends StatelessWidget {
             end: endColor,
           ),
         ),
-        child: const SomeTextToDisplay());
+        child: const SomeTextToDisplay('Heya'));
   }
 }
