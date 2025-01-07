@@ -6,18 +6,12 @@ import 'package:helloworld/dice_roller.dart';
 
 var startColor = Alignment.topRight;
 var endColor = Alignment.bottomLeft;
-var activeDiceImage = 'images/dice-3.png';
+
 
 class GradientContainer extends StatelessWidget {
-  GradientContainer(this.colors, {super.key});
+  const GradientContainer(this.colors, {super.key});
 
   final List<Color> colors;
-
-  void rollDice() {
-    // demn...
-    activeDiceImage = 'images/dice-6.png';
-    print("changing the die");
-  }
 
   @override
   Widget build(BuildContext context) {
