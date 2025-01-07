@@ -30,9 +30,9 @@ The Dice App is a simple, user-friendly digital dice roller built using Flutter.
     ```
 
     Adjust the package name with your 
-    '''
+    ```
     import 'package:<foldername>/dice_roller.dart';
-    ''' 
+    ```
 
 3. **Run the App**:
     To launch the app on an emulator or connected device, use:
