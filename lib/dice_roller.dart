@@ -26,7 +26,7 @@ class _DiceRollerState extends State<DiceRoller> {
       mainAxisSize: MainAxisSize.min,
       children: [
         Image.asset(
-          'images/dice-$diceRoll.png',
+          'assets/images/dice-$diceRoll.png',
           width: 200,
         ),
         const SizedBox(height: 20),
