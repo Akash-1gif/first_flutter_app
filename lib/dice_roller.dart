@@ -19,7 +19,6 @@ class _DiceRollerState extends State<DiceRoller> {
     });
   }
 
-
 // 'images/dice-$dieNum.png';
   @override
   Widget build(context) {
