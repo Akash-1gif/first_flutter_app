@@ -41,10 +41,6 @@ The Dice App is a simple, user-friendly digital dice roller built using Flutter.
 2. When the roll button is pressed, the app generates a random number between 1 and 6.
 3. The dice image updates to reflect the generated number, along with a smooth rolling animation.
 
-## Screenshots
-
-_Add screenshots of the app here to showcase the UI and functionality._
-
 ## Future Enhancements
 
 - Not decided anything yet, most likely to abandon this project
